@@ -1,0 +1,14 @@
+{
+	"name": "SalesforceServiceCloud",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SalesforceServiceCloud",
+		"typeProperties": {
+			"environmentUrl": "https://lnrs--devint.my.salesforce.com",
+			"username": " fido.integration@lexisnexisrisk.com.devint",
+			"apiVersion": "48.0",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkxPQURTQUxFU0ZPUkNFT0JKRUNUU19mOWE0YzQ4NS1iNmUyLTQzZmEtOTQ5MC0wNWVlNTNhZDdkMzQiDQp9"
+		}
+	}
+}

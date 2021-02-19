@@ -1,0 +1,59 @@
+{
+	"name": "attrition_alert",
+	"properties": {
+		"activities": [
+			{
+				"name": "restapi",
+				"type": "WebActivity",
+				"dependsOn": [],
+				"policy": {
+					"timeout": "7.00:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"url": "https://lnrs--qa.my.salesforce.com/services/data/v49.0/sobjects/task",
+					"method": "POST",
+					"headers": {
+						"Authorization": "Bearer 00D2i0000008eTP!AQsAQPmjMtjhYl0ZyIVj.DPsb768peGMY4fdAzqShIWAVa_D1xMwigXDeWgkb71vmoSyjBdUpPQjYTHmScafDmS3a3TnBr8m",
+						"Content-Type": "application/json"
+					},
+					"body": {
+						"Subject": "Attrition Alert",
+						"Type": "Attrition Follow Up",
+						"Status": "Open",
+						"Description": "Attrition Alert from FIDO",
+						"Priority": "Normal",
+						"WhatId": "0013K00000ccrboQAA",
+						"recordTypeId": "0123K0000008lE8QAI",
+						"ActivityDate": "2021-02-01",
+						"ownerid": "0053K000000t7vZQAQ"
+					},
+					"linkedServices": [
+						{
+							"referenceName": "Salesforce_qa",
+							"type": "LinkedServiceReference"
+						}
+					],
+					"authentication": {
+						"type": "Basic",
+						"username": "fido.integration@lexisnexisrisk.com.qa",
+						"password": {
+							"type": "SecureString",
+							"value": "**********"
+						}
+					}
+				}
+			}
+		],
+		"folder": {
+			"name": "NotUsed"
+		},
+		"annotations": [],
+		"lastPublishTime": "2021-02-12T20:15:15Z"
+	},
+	"type": "Microsoft.DataFactory/factories/pipelines"
+}

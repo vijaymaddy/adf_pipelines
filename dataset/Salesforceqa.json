@@ -1,0 +1,25 @@
+{
+	"name": "Salesforceqa",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Salesforce_qa",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"object": {
+				"type": "string",
+				"defaultValue": "account"
+			}
+		},
+		"annotations": [],
+		"type": "SalesforceObject",
+		"schema": [],
+		"typeProperties": {
+			"objectApiName": {
+				"value": "@dataset().object",
+				"type": "Expression"
+			}
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

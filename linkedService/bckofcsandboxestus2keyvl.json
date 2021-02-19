@@ -1,0 +1,12 @@
+{
+	"name": "bckofcsandboxestus2keyvl",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"description": "bckofcsandboxestus2keyvl  KeyVault",
+		"annotations": [],
+		"type": "AzureKeyVault",
+		"typeProperties": {
+			"baseUrl": "https://bckofcsandboxestus2keyvl.vault.azure.net/"
+		}
+	}
+}

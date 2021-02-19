@@ -1,0 +1,19 @@
+{
+	"name": "Salesforceproject",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Salesforce1",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "NotUsed/salesforce"
+		},
+		"annotations": [],
+		"type": "SalesforceObject",
+		"schema": [],
+		"typeProperties": {
+			"objectApiName": "Project__c"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

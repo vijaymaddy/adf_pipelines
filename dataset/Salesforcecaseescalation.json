@@ -1,0 +1,19 @@
+{
+	"name": "Salesforcecaseescalation",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Salesforce1",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "NotUsed/salesforce"
+		},
+		"annotations": [],
+		"type": "SalesforceObject",
+		"schema": [],
+		"typeProperties": {
+			"objectApiName": "Case_Escalation__c"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

@@ -1,0 +1,19 @@
+{
+	"name": "SFactive",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Salesforcemulti",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "NotUsed/salesforce"
+		},
+		"annotations": [],
+		"type": "SalesforceObject",
+		"schema": [],
+		"typeProperties": {
+			"objectApiName": "Account"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

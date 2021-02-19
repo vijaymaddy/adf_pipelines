@@ -1,0 +1,17 @@
+{
+	"name": "SFtrigger",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Stopped",
+		"pipelines": [],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Hour",
+				"interval": 8,
+				"startTime": "2020-11-17T08:18:00",
+				"timeZone": "Eastern Standard Time"
+			}
+		}
+	}
+}
